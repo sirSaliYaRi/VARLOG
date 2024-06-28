@@ -89,7 +89,8 @@ def all_tasks():
     """all the tasks that need to be run over and over by scheduling"""
     list_assistants()
     subprocess.run(['git','status'])
-    subprocess.run(['git', 'add', '*'])
+    subprocess.run(['git', 'add', 'main.py'])
+    subprocess.run(['git', 'add', 'assistants/'])
     subprocess.run(['git', 'commit','-m',f"{dt.datetime.now().strftime('%Y-%m-%d %H:%M')}"])
     subprocess.run(['git','push', 'https://github.com/sirSaliYaRi/VARLOG.git'])
 
