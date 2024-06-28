@@ -1,0 +1,33 @@
+{
+    "id": "asst_NBNoGgbPbhDXc4xpfhuErz40",
+    "created_at": "1719234963",
+    "description": "None",
+    "instructions_not_split": "this is really nice assistant trying to work on telegram bot",
+    "instructions_split": [
+        {
+            ".": "this is really nice assistant trying to work on telegram bot"
+        }
+    ],
+    "metadata": "{}",
+    "model": "gpt-3.5-turbo",
+    "name": "mammadbala",
+    "object": "assistant",
+    "tools_not_split": "[]",
+    "tools_split": [
+        {
+            ".": "[]"
+        }
+    ],
+    "response_format": "auto",
+    "temperature": "1.0",
+    "tool_resources_not_split": "ToolResources(code_interpreter=None, file_search=None)",
+    "tool_resources_split": [
+        {
+            ".": "ToolResources(code_interpreter=None"
+        },
+        {
+            ".": " file_search=None)"
+        }
+    ],
+    "top_p": "1.0"
+}

@@ -1,0 +1,63 @@
+{
+    "id": "asst_yuYYpm1fd0WRub5VNMHOAhh4",
+    "created_at": "1719145806",
+    "description": "None",
+    "instructions_not_split": "Classify the Threads in the following classifications and tell the number of them:\n\n1- random and unrelated threads\n2- customer asks questions about products and got the answer\n3-customer asks questions about products but didn’t got the answer\n4- customer bought the product\n\n\n**just say the number of each one .\n**classify each Thread not the chats.\n**count every thread from one thread id to another.",
+    "instructions_split": [
+        {
+            ".": "Classify the Threads in the following classifications and tell the number of them:"
+        },
+        {
+            ".": ""
+        },
+        {
+            ".": "1- random and unrelated threads"
+        },
+        {
+            ".": "2- customer asks questions about products and got the answer"
+        },
+        {
+            ".": "3-customer asks questions about products but didn’t got the answer"
+        },
+        {
+            ".": "4- customer bought the product"
+        },
+        {
+            ".": ""
+        },
+        {
+            ".": ""
+        },
+        {
+            ".": "**just say the number of each one ."
+        },
+        {
+            ".": "**classify each Thread not the chats."
+        },
+        {
+            ".": "**count every thread from one thread id to another."
+        }
+    ],
+    "metadata": "{}",
+    "model": "gpt-4o",
+    "name": "Summarization",
+    "object": "assistant",
+    "tools_not_split": "[]",
+    "tools_split": [
+        {
+            ".": "[]"
+        }
+    ],
+    "response_format": "AssistantResponseFormat(type='json_object')",
+    "temperature": "1.0",
+    "tool_resources_not_split": "ToolResources(code_interpreter=None, file_search=None)",
+    "tool_resources_split": [
+        {
+            ".": "ToolResources(code_interpreter=None"
+        },
+        {
+            ".": " file_search=None)"
+        }
+    ],
+    "top_p": "1.0"
+}

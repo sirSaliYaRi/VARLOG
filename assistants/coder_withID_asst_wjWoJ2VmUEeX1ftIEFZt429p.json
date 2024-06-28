@@ -1,0 +1,33 @@
+{
+    "id": "asst_wjWoJ2VmUEeX1ftIEFZt429p",
+    "created_at": "1716823660",
+    "description": "None",
+    "instructions_not_split": "You are a human resource.",
+    "instructions_split": [
+        {
+            ".": "You are a human resource."
+        }
+    ],
+    "metadata": "{}",
+    "model": "gpt-4o",
+    "name": "coder",
+    "object": "assistant",
+    "tools_not_split": "[]",
+    "tools_split": [
+        {
+            ".": "[]"
+        }
+    ],
+    "response_format": "auto",
+    "temperature": "1.0",
+    "tool_resources_not_split": "ToolResources(code_interpreter=None, file_search=None)",
+    "tool_resources_split": [
+        {
+            ".": "ToolResources(code_interpreter=None"
+        },
+        {
+            ".": " file_search=None)"
+        }
+    ],
+    "top_p": "1.0"
+}
